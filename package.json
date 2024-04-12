@@ -1,6 +1,6 @@
 {
   "name": "react-simple-debounce",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and flexible React hook for debouncing inputs or functions, enhancing performance by managing execution frequency in response to user input or actions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
