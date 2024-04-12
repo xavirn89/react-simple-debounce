@@ -1,16 +1,29 @@
 {
   "name": "react-simple-debounce",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A lightweight and flexible React hook for debouncing inputs or functions, enhancing performance by managing execution frequency in response to user input or actions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "debounce",
+    "hook",
+    "performance",
+    "state",
+    "delay",
+    "throttle",
+    "react-hook"
+  ],
+  "author": "Xavi Ramon Nicolau <xavirn.me@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "devDependencies": {
     "@types/react": "^18.2.77",
     "typescript": "^5.4.5"
@@ -22,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/xavirn89/react-simple-debounce/issues"
   },
-  "homepage": "https://github.com/xavirn89/react-simple-debounce#readme"  
+  "homepage": "https://github.com/xavirn89/react-simple-debounce#readme"
 }
