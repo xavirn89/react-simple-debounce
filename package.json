@@ -14,5 +14,13 @@
   "devDependencies": {
     "@types/react": "^18.2.77",
     "typescript": "^5.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xavirn89/react-simple-debounce"
+  },
+  "bugs": {
+    "url": "https://github.com/xavirn89/react-simple-debounce/issues"
+  },
+  "homepage": "https://github.com/xavirn89/react-simple-debounce#readme"  
 }

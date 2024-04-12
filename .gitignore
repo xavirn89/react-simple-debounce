@@ -1,3 +1,15 @@
-node_modules/
-src/
-tsconfig.json
+# Dependencies
+/node_modules
+
+# Compiled output
+/dist
+
+# Environment variables
+.env
+
+# OS and Editor folders
+.DS_Store
+.vscode
+
+# Logs
+*.log
